@@ -1,0 +1,35 @@
+document: modulemd
+version: 1
+data:
+    summary: Eye of GNOME Application Module
+    description:  The Eye of GNOME image viewer (eog) is the official image viewer for the
+       GNOME desktop. It can view single image files in a variety of formats, as
+       well as large image collections.
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            flatpak-runtime: f26
+            perl: f26
+            common-build-dependencies: f26
+            shared-userspace: f26
+        requires:
+            flatpak-runtime: f26
+    profiles:
+        default:
+            rpms:
+                - eog
+    components:
+        rpms:
+            eog:
+                rationale: Core application
+                ref: f26
+                buildorder: 2
+            exempi:
+                rationale: Dependency
+                ref: f26
+                buildorder: 1
+            libexif:
+                rationale: Dependency
+                ref: f26
+                buildorder: 1
