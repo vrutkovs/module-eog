@@ -10,6 +10,7 @@ data:
     dependencies:
         buildrequires:
             flatpak-runtime: f26
+            base-runtime: f26
             perl: f26
             common-build-dependencies: f26
             shared-userspace: f26
