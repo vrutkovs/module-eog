@@ -28,6 +28,7 @@ data:
                 buildorder: 2
             exempi:
                 rationale: Dependency
+                repository: file:///home/otaylor/fedora-git/exempi
                 ref: f26
                 buildorder: 1
             libexif:
