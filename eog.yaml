@@ -27,17 +27,23 @@ data:
             eog:
                 rationale: Core application
                 ref: f26
-                buildorder: 2
+                buildorder: 3
             exempi:
                 rationale: Dependency
                 repository: file:///home/otaylor/fedora-git/exempi
                 ref: f26
-                buildorder: 1
+                buildorder: 2
             libexif:
                 rationale: Dependency
+                ref: f26
+                buildorder: 2
+            glade:
+                # Could be conditionaled out in libpeas - this is just to find a location
+                # to install a glade catalog file.
+                rationale: Build dependency for libpeas
                 ref: f26
                 buildorder: 1
             libpeas:
                 rationale: Dependency
                 ref: f26
-                buildorder: 1
+                buildorder: 2
