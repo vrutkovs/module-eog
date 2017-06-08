@@ -20,6 +20,8 @@ data:
         default:
             rpms:
                 - eog
+# If we wanted support for Python plugins
+#                - libpeas-loader-python3
     components:
         rpms:
             eog:
@@ -32,6 +34,10 @@ data:
                 ref: f26
                 buildorder: 1
             libexif:
+                rationale: Dependency
+                ref: f26
+                buildorder: 1
+            libpeas:
                 rationale: Dependency
                 ref: f26
                 buildorder: 1
