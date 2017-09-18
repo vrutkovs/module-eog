@@ -26,7 +26,7 @@ data:
         rpms:
             eog:
                 rationale: Core application
-                ref: f26
+                ref: e5450ba
                 buildorder: 3
             exempi:
                 rationale: Dependency
