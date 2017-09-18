@@ -9,13 +9,13 @@ data:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            flatpak-runtime: f27
-            base-runtime: f27
-            perl: f27
-            common-build-dependencies: f27
-            shared-userspace: f27
+            flatpak-runtime: f26
+            base-runtime: f26
+            perl: f26
+            common-build-dependencies: f26
+            shared-userspace: f26
         requires:
-            flatpak-runtime: f27
+            flatpak-runtime: f26
     profiles:
         default:
             rpms:
@@ -26,23 +26,23 @@ data:
         rpms:
             eog:
                 rationale: Core application
-                ref: f27
+                ref: f26
                 buildorder: 3
             exempi:
                 rationale: Dependency
-                ref: f27
+                ref: f26
                 buildorder: 2
             libexif:
                 rationale: Dependency
-                ref: f27
+                ref: f26
                 buildorder: 2
             glade:
                 # Could be conditionaled out in libpeas - this is just to find a location
                 # to install a glade catalog file.
                 rationale: Build dependency for libpeas
-                ref: f27
+                ref: f26
                 buildorder: 1
             libpeas:
                 rationale: Dependency
-                ref: f27
+                ref: f26
                 buildorder: 2
