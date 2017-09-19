@@ -36,13 +36,13 @@ data:
                 rationale: Dependency
                 ref: 6295d0
                 buildorder: 2
-            glade:
-                # Could be conditionaled out in libpeas - this is just to find a location
-                # to install a glade catalog file.
-                rationale: Build dependency for libpeas
-                ref: e57626
-                buildorder: 1
-            libpeas:
-                rationale: Dependency
-                ref: 83b58b
-                buildorder: 2
+#            glade:
+#                # Could be conditionaled out in libpeas - this is just to find a location
+#                # to install a glade catalog file.
+#                rationale: Build dependency for libpeas
+#                ref: e57626
+#                buildorder: 1
+#            libpeas:
+#                rationale: Dependency
+#                ref: 83b58b
+#                buildorder: 2
