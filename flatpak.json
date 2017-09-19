@@ -1,8 +1,8 @@
 {
         "id": "org.gnome.eog",
-        "version": " 	3.24.1-1.fc26",
+        "version": " 	3.26.1-1.fc26",
         "runtime": "org.fedoraproject.GnomePlatform",
-        "runtime-version": "26",
+        "runtime-version": "27",
         "sdk": "org.fedoraproject.GnomeSdk",
         "command": "eog",
         "tags": ["Viewer"],
