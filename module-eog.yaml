@@ -26,23 +26,23 @@ data:
         rpms:
             eog:
                 rationale: Core application
-                ref: e5450ba
+                ref: 6f7c56
                 buildorder: 3
             exempi:
                 rationale: Dependency
-                ref: f7c0ca
+                ref: c408fd
                 buildorder: 2
             libexif:
                 rationale: Dependency
-                ref: c5ef78
+                ref: 6295d0
                 buildorder: 2
             glade:
                 # Could be conditionaled out in libpeas - this is just to find a location
                 # to install a glade catalog file.
                 rationale: Build dependency for libpeas
-                ref: 9899d5
+                ref: e57626
                 buildorder: 1
             libpeas:
                 rationale: Dependency
-                ref: f479ec
+                ref: 83b58b
                 buildorder: 2
