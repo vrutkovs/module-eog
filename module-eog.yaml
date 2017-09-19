@@ -30,19 +30,19 @@ data:
                 buildorder: 3
             exempi:
                 rationale: Dependency
-                ref: f26
+                ref: f7c0ca
                 buildorder: 2
             libexif:
                 rationale: Dependency
-                ref: f26
+                ref: c5ef78
                 buildorder: 2
             glade:
                 # Could be conditionaled out in libpeas - this is just to find a location
                 # to install a glade catalog file.
                 rationale: Build dependency for libpeas
-                ref: f26
+                ref: 9899d5
                 buildorder: 1
             libpeas:
                 rationale: Dependency
-                ref: f26
+                ref: f479ec
                 buildorder: 2
