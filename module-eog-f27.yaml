@@ -9,13 +9,9 @@ data:
         module: [ MIT ]
     dependencies:
         buildrequires:
-            flatpak-runtime: f27
-            base-runtime: f27
-            perl: f27
-            common-build-dependencies: f27
-            shared-userspace: f27
+            gnome-runtime-f27: f27
         requires:
-            flatpak-runtime: f27
+            gnome-runtime-f27: f27
     profiles:
         default:
             rpms:
