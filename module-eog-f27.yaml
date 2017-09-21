@@ -16,6 +16,8 @@ data:
         default:
             rpms:
                 - eog
+                - exempi
+                - libexif
 # If we wanted support for Python plugins
 #                - libpeas-loader-python3
     components:
@@ -23,15 +25,15 @@ data:
             eog:
                 rationale: Core application
                 ref: 6f7c56
-                buildorder: 3
+                buildorder: 2
             exempi:
                 rationale: Dependency
                 ref: c408fd
-                buildorder: 2
+                buildorder: 1
             libexif:
                 rationale: Dependency
                 ref: 6295d0
-                buildorder: 2
+                buildorder: 1
 #            glade:
 #                # Could be conditionaled out in libpeas - this is just to find a location
 #                # to install a glade catalog file.
