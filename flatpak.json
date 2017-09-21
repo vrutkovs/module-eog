@@ -6,7 +6,7 @@
         "sdk": "org.fedoraproject.GnomeSdk",
         "command": "eog",
         "tags": ["Viewer"],
-        "finish-args": ["--filesystem=host",
+        "finish-args": ["--filesystem=home",
                         "--share=ipc",
                         "--socket=x11",
                         "--socket=wayland",
