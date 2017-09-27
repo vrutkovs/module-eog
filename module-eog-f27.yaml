@@ -32,7 +32,7 @@ data:
                 buildorder: 1
             libexif:
                 rationale: Dependency
-                ref: 6295d0
+                ref: dad2a4
                 buildorder: 1
 #            glade:
 #                # Could be conditionaled out in libpeas - this is just to find a location
