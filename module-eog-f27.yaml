@@ -30,10 +30,6 @@ data:
                 rationale: Dependency
                 ref: c408fd
                 buildorder: 1
-            libexif:
-                rationale: Dependency
-                ref: dad2a4
-                buildorder: 1
 #            glade:
 #                # Could be conditionaled out in libpeas - this is just to find a location
 #                # to install a glade catalog file.
